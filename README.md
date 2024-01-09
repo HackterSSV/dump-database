@@ -4,8 +4,8 @@ You can use it with move from dev database to uat or to production
 
 # How to dump and restore database mongodb
 # install mongodb tool ()
-  download tool: https://www.mongodb.com/try/download/database-tools
-  how to install and config:  https://www.mongodb.com/docs/database-tools/installation/installation-windows/
+  # download tool: https://www.mongodb.com/try/download/database-tools
+  # how to install and config:  https://www.mongodb.com/docs/database-tools/installation/installation-windows/
   
 # how to dump database (export your database)
   1. open terminal
