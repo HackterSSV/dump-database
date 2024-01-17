@@ -13,9 +13,9 @@ You can use it with move from dev database to uat or to production
      mongodump --uri="your database url"
      
 # example dump all database from url: 
-  C:\Users\ter> mongodump --uri="mongodb+srv://hackter77:%3CZPnaI2z 0bvBrgE4G%3E@cluster0.7xduomn.mongodb.net/"
+  C:\Users\ter> mongodump --uri="mongodb+srv://hackter77:%3CZPnaI2z 0bvBrgE4G%3E@cluster0.7xduomn.mongodb.net/?retryWrites=true&w=majority"
 # example dump single database from url: 
-  C:\Users\ter> mongodump --uri="mongodb+srv://hackter77:%3CZPnaI2z0bvBrgE4G%3E@cluster0.7xduomn.mongodb.net/database1"
+  C:\Users\ter> mongodump --uri="mongodb+srv://hackter77:%3CZPnaI2z0bvBrgE4G%3E@cluster0.7xduomn.mongodb.net/database1?retryWrites=true&w=majority"
   
 # you can check your database after dump database in the path you use command 
 # example my dump: C:\Users\ter\dump\
