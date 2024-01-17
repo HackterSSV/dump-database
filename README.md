@@ -22,6 +22,6 @@ You can use it with move from dev database to uat or to production
 
 # how to restore database(import dump data to new database)
 # restore all database to new database  from folder dump:
-C:\Users\ter> mongodump mongodb+srv://hackter77:%3CZPnaI2z 0bvBrgE4G%3E@cluster0.7xduomn.mongodb.net/ dump\
+C:\Users\ter>mongorestore mongodb+srv://hackter77:%3CZPnaI2z 0bvBrgE4G%3E@cluster0.7xduomn.mongodb.net/ dump\
 # restore single database to new database from folder dump\your database: 
-C:\Users\ter> mongodump --uri="mongodb+srv://hackter77:%3CZPnaI2z0bvBrgE4G%3E@cluster0.7xduomn.mongodb.net/database2" dump\database1\
+C:\Users\ter>mongorestore --uri="mongodb+srv://hackter77:%3CZPnaI2z0bvBrgE4G%3E@cluster0.7xduomn.mongodb.net/database2" dump\database1\
